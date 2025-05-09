@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Registration Form</title>
+    <link rel="stylesheet" href="form_css.css">
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form action="#" method="post" autocomplete="off">
+        <div class="main">
+
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Enter your full name" class="l1" required><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter your email address" class="l1" required><br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Create a password" class="l2" required><br><br>
+
+            <label>Confirm Password:</label>
+            <input type="password" name="confirm_password" placeholder="Re-enter password" class="l2" required><br><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="10-digit mobile number" class="l1" required><br><br>
+
+            <label>Profile Picture:</label>
+            <input type="file" id="file" name="file" class="file-upload" accept="image/*"><br><br>
+
+            <label>Birth Date:</label>
+            <input type="date" id="date" name="date" class="b"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="radio1" name="gender" value="Male" class="r">
+            <label for="radio1">Male</label>
+            <input type="radio" id="radio2" name="gender" value="Female" class="r">
+            <label for="radio2">Female</label><br><br>
+
+            <label>Subjects:</label>
+            <input type="checkbox" id="checkbox1" name="subject[]" value="Java" class="r">
+            <label for="checkbox1">Java</label>
+            <input type="checkbox" id="checkbox2" name="subject[]" value="PHP" class="r">
+            <label for="checkbox2">PHP</label>
+            <input type="checkbox" id="checkbox3" name="subject[]" value="HTML" class="r">
+            <label for="checkbox3">HTML</label><br><br>
+
+            <label>City:</label>
+            <select id="city" name="city" class="city">
+                <option value="">Select City</option>
+                <option value="Kolhapur">Kolhapur</option>
+                <option value="Pune">Pune</option>
+                <option value="Sangli">Sangli</option>
+            </select><br><br>
+
+            <center>
+                <input type="submit" id="submit" name="submit" value="Submit" class="btn">
+                <input type="reset" id="reset" name="reset" value="Reset" class="btn1"><br><br>
+            </center>
+            
+        </div>
+    </form>
+
+</body>
+</html>

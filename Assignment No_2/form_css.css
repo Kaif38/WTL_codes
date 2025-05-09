@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container */
+.main {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgb(215, 250, 231);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 30px;
+}
+h2::before,
+h2::after {
+    content: "*";
+    color: rgb(255, 0, 111);
+    font-size: 30px;
+}
+
+/* Labels */
+label {
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Input Fields */
+.l1, .l2, .city, .b, .search-bar, .range-slider {
+    padding: 8px;
+    margin-left: 30px;
+    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Focus Effect on Inputs */
+.l1:focus, .l2:focus, .city:focus, .b:focus, .search-bar:focus {
+    border-color: blue;
+    outline: none;
+    box-shadow: 0 0 5px blue;
+}
+
+/* Disabled Input Style */
+input:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+/* Radio & Checkbox Styling */
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0px 0px 0px 30px;
+    transform: scale(1.2);
+}
+
+/* Checked Effect */
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+    color: green;
+    font-weight: bold;
+}
+
+/* Dropdown */
+.city {
+    margin-left: 30px;
+}
+
+/* File Upload */
+.file-upload {
+    margin-left: 30px;
+}
+
+/* Buttons */
+.btn, .btn1 {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover Effect on Buttons */
+.btn:hover, .btn1:hover {
+    background-color: aqua;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Active State */
+.btn:active, .btn1:active {
+    background-color: darkgreen;
+    transform: scale(0.95);
+}
+
+/* Responsive Media Query */
+@media screen and (max-width: 600px) {
+    .main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    label, .l1, .l2, .city, .b, .file-upload {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .btn, .btn1 {
+        width: 100%;
+        margin: 10px 0;
+    }
+}

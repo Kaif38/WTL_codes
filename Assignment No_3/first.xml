@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<library>
+    <book>
+        <title>Python Programming Essentials</title>
+        <author>John Doe</author>
+        <year>2021</year>
+        <price>650</price>
+    </book>
+    <book>
+        <title>Mastering Java</title>
+        <author>Jane Smith</author>
+        <year>2019</year>
+        <price>550</price>
+    </book>
+    <book>
+        <title>The Art of Data Science</title>
+        <author>Emily Clark</author>
+        <year>2020</year>
+        <price>720</price>
+    </book>
+</library>

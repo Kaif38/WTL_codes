@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<library>
+    <book>
+        <title>Introduction to XML Basics</title>
+        <author>Michael Johnson</author>
+        <price>800</price>
+    </book>
+    <book>
+        <title>Mastering XPath and XSLT</title>
+        <author>Emily Davis</author>
+        <price>900</price>
+    </book>
+</library>

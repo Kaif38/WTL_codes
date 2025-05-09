@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+    <book>
+        <title>Introduction to Cloud Computing</title>
+        <author>Neha Sharma</author>
+        <year>2021</year>
+        <price>650</price>
+    </book>
+    <book>
+        <title>Artificial Intelligence</title>
+        <author>Stuart Russell</author>
+        <year>2015</year>
+        <price>700</price>
+    </book>
+    <book>
+        <title>Database</title>
+        <author>XYZ</author>
+        <year>2005</year>
+        <price>850</price>
+    </book>
+    <book>
+        <title>Computer Networking</title>
+        <author>ABC</author>
+        <year>2013</year>
+        <price>900</price>
+    </book>
+</library>
